@@ -1,6 +1,6 @@
-# ECLIPSE P5JS Simple Starter
+# Eclipse.art p5js simple starter project
 
-A minimal project using [p5js](http://p5js.org) to create javascript generative art.
+A minimal starter project using [p5js](http://p5js.org) to create javascript generative art.
 
 ## Structure
 
@@ -11,17 +11,19 @@ A minimal project using [p5js](http://p5js.org) to create javascript generative 
 ## Setup
 
 ```sh
-git clone http... eclipse-starter
-cd eclipse-starter
+git clone https://github.com/gen-dot-art/eclipse-starter-simple.git
+cd eclipse-starter-simple
 npm i
 ```
 
 ## Development
 
-Run your project in the browser using:
+This will create a simple http server available under `http://localhost:8080`
 
 `npm run dev`
 
 ## Build
 
-Creates a zip file including and minimizing your source in `./build` director
+Minimizes your source files in the `.src` directory and zips them to a file into the `./build` directory.
+
+`npm run build`
