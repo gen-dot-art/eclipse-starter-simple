@@ -1,0 +1,17 @@
+{
+  "name": "eclipse-starter-simple",
+  "version": "1.0.0",
+  "main": "index.html",
+  "scripts": {
+    "dev": "serve ./src -p 8080",
+    "build": "node utils/build.js"
+  },
+  "author": "Eclipse",
+  "license": "ISC",
+  "description": "Simple P5JS generative art starter project",
+  "dependencies": {
+    "archiver": "^5.3.1",
+    "html-minifier": "^4.0.0",
+    "serve": "^14.2.0"
+  }
+}
